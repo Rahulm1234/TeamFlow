@@ -1,0 +1,41 @@
+<!-- Navbar starts from here -->
+      <nav id="navBar" class="w-full h-14 absolute flex justify-between px-16 items-center">
+        <!--Left side logo-->
+        <div class="">
+            <img src="../Res/left-logo.svg" alt="">
+            <a href="#">TeamFlow</a>
+                <!-- Middle order navMenu -->
+                <ul>
+                    <li>Product</li>
+                    <li>Solution</li>
+                    <li>Enterprice</li>
+                    <li>Pricing</li>
+                </ul>
+
+            <!-- Middle order navMenu Ends here -->
+
+            <!-- Right ordernavMenu Starts here -->
+
+            <div>
+                <p><a href="#">Login</a></p>
+                <button class="bg-[#FFCA1D] rounded-[10px]" type="submit">Sign up</button>
+            </div>
+
+        </div>
+
+        <!-- navMenu starts from here -->
+        <!-- <div class="mt-36 md:inline-flex hidden lg:inline-flex lg:w-auto">
+            <ul class="flex lg:flex-row text-white">
+                <li class=""><a href="#">Product</a></li>
+                <li class=""><a href="#">Solution</a></li>
+                <li class=""><a href="#">Enterprice</a></li>
+                <li class=""><a href="#">Pricing</a></li>
+            </ul>
+        </div>
+
+        <div
+          class="hidden md:block uppercase font-semibold px-2 py-2 bg-[#FFCA1D] text-white rounded-[10px] cursor-pointer">SignUp
+        </div> -->
+        <!-- navMenu ends here -->
+      </nav>
+      <!-- Navbar Ends Here -->

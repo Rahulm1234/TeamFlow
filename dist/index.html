@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Web</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Created Header for Image -->
+    <header class="h-screen relative bg-[#FAFAFF]">
+      <div
+        class="w-auto h-full  bg-no-repeat bg-contain"
+        style="background-image: url(../Res/Group-3.png)"
+      >
+        <nav class="w-full h-24 flex justify-between px-24 items-center">
+          <!-- navMenu Left side logo and Name -->
+
+          <div
+            class="font-poppins text-white text-xl font-semibold flex items-center gap-2"
+          >
+            <img class="w-5" src="../Res/left-logo.svg" alt="" />
+            <a href="#">TeamFlow</a>
+          </div>
+
+          <!-- navMenu Left side logo and Menu ends here-->
+
+          <ul class="md:flex hidden text-white">
+            <li class="mx-[10px] cursor-pointer">Product</li>
+            <li class="mx-[10px] cursor-pointer">Solution</li>
+            <li class="mx-[10px] cursor-pointer">Enterprise</li>
+            <li class="mx-[10px] cursor-pointer">Pricing</li>
+          </ul>
+
+          <!-- nevMenu Left side logo and Menu ends Here -->
+
+          <!-- login & sign up button for md and higher starts here -->
+
+          <div class="flex px-20 gap-7 items-center">
+            <p class="hidden md:block text-[#757575]"><a href="">Login</a></p>
+            <p
+              class="hidden md:block px-4 py-2 bg-[#FFCC1D] hover:bg-yellow-500 hover:text-black rounded-[10px] cursor-pointer shadow-md shadow-black"
+            >
+              <a href="">Sign Up</a>
+            </p>
+          </div>
+
+          <!-- login & sign up button for sm starts here -->
+
+          <!-- login & sign up button for sm starts here -->
+
+          <div class="md:hidden">
+            <div class="space-y-1 rotate-180" id="hamburger">
+              <div class="w-6 h-0.5 bg-white"></div>
+              <div class="w-6 h-0.5 bg-white"></div>
+              <div class="w-6 h-0.5 bg-white"></div>
+            </div>
+            <ul
+              class="text-black flex flex-col justify-start bg-white gap-5 h-screen absolute top-0 left-0 z-20 p-10 items-start -translate-x-full transition-all shadow-2xl shadow-black"
+              id="mobile-nav"
+              id="mobile-nav"
+            >
+              <li><a href="">Priduct</a></li>
+              <li><a href="">Solution</a></li>
+              <li><a href="">Enterprise</a></li>
+              <li><a href="">Pricing</a></li>
+              <li class="border-t-4"><a href="">Login/Sign Up</a></li>
+            </ul>
+          </div>
+
+          <!-- login & sign up button for sm starts here -->
+        </nav>
+
+        <!-- Navbar Ends Here -->
+      </div>
+
+      <!-- Hero Section Starts from here-->
+
+      <section
+        class="flex flex-col container absolute top-0 left-0 mx-auto pt-32 px-10 md:items-center md:px-20 md:-pt-[68px] md:flex-row md:justify-between gap-32 z-30"
+      >
+        <div class="flex flex-col items-start md:flex md:flex-col md:pb-[68px] gap-7">
+          <a
+            class="bg-[#FFFFFF] hover:bg-yellow-500 px-4 py-2 mt-5 rounded-[10px]"
+            href="#"
+            >&#128075; Welcome to TeamFlow</a
+          >
+          <h1
+            class="text-3xl text-white font-bold leading-[125%] sm:text-5xl md:text-[36px] md:leading-[125%]"
+          >
+            Work the way that <br />
+            works for you
+          </h1>
+          <p class="md:text-[22px] text-white">
+            Create, Build, Collaborate and Ship products <br />
+            very fast
+          </p>
+          <a
+            class="bg-[#FFCC1D] hover:bg-yellow-500 px-4 py-2 rounded-[10px]"
+            href="#"
+            >Get Started</a
+          >
+        </div>
+        <div class="mt-12 mx-10">
+          <img src="../Res/grp2.svg" alt="" />
+        </div>
+      </section>
+
+      <!-- Hero Section Ends from here-->
+    </header>
+    <!-- Header Complete for here -->
+
+    <!-- Scripting -->
+
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const mobileNav = document.getElementById("mobile-nav");
+
+      hamburger.addEventListener("click", () => {
+        mobileNav.classList.toggle("-translate-x-full");
+      });
+    </script>
+  </body>
+</html>
