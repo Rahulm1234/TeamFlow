@@ -56,7 +56,7 @@
               <div class="w-6 h-0.5 bg-white"></div>
             </div>
             <ul
-              class="text-black flex flex-col justify-start bg-white gap-5 h-screen absolute top-0 left-0 z-20 p-10 items-start -translate-x-full transition-all shadow-2xl shadow-black"
+              class="text-black flex flex-col justify-start bg-white gap-5 h-screen absolute z-20 p-10 items-start -translate-x-full transition-all shadow-2xl shadow-black"
               id="mobile-nav"
             >
               <li><a href="">Priduct</a></li>
@@ -344,6 +344,7 @@
     <script>
       let hamburger = document.getElementById("hamburger");
       let mobileNav = document.getElementById("mobile-nav");
+      console.log(hamburger);
 
       hamburger.addEventListener("click", () => {
         mobileNav.classList.toggle("-translate-x-full");
