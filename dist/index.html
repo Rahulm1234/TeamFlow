@@ -8,10 +8,10 @@
   </head>
   <body>
     <!-- Created Header for Image -->
-    <header class="h-screen relative bg-[#FAFAFF]">
+    <header class="h-screen relative bg-white md:h-screen">
       <div
-        class="w-auto h-full  bg-no-repeat bg-contain"
-        style="background-image: url(../Res/Group-3.png)"
+        class="w-auto h-full bg-no-repeat bg-contain xl:w-auto xl:h-full"
+        style="background-image: url(../Res/Group\ 777.svg)"
       >
         <nav class="w-full h-24 flex justify-between px-24 items-center">
           <!-- navMenu Left side logo and Name -->
@@ -56,15 +56,14 @@
               <div class="w-6 h-0.5 bg-white"></div>
             </div>
             <ul
-              class="text-black flex flex-col justify-start bg-white gap-5 h-screen absolute top-0 left-0 z-20 p-10 items-start -translate-x-full transition-all shadow-2xl shadow-black"
-              id="mobile-nav"
+              class="text-black flex flex-col justify-start bg-white gap-5 h-screen absolute z-20 p-10 items-start -translate-x-full transition-all shadow-2xl shadow-black"
               id="mobile-nav"
             >
               <li><a href="">Priduct</a></li>
               <li><a href="">Solution</a></li>
               <li><a href="">Enterprise</a></li>
               <li><a href="">Pricing</a></li>
-              <li class="border-t-4"><a href="">Login/Sign Up</a></li>
+              <li><a href="">Login/Sign Up</a></li>
             </ul>
           </div>
 
@@ -77,9 +76,9 @@
       <!-- Hero Section Starts from here-->
 
       <section
-        class="flex flex-col container absolute top-0 left-0 mx-auto pt-32 px-10 md:items-center md:px-20 md:-pt-[68px] md:flex-row md:justify-between gap-32 z-30"
+        class="flex flex-col container absolute content-center justify-items-center top-0 left-28 mx-auto pt-32 px-10 md:items-center md:px-20 md:-pt-[68px] md:flex-row md:justify-between gap-32 z-30"
       >
-        <div class="flex flex-col items-start md:flex md:flex-col md:pb-[68px] gap-7">
+        <div class="flex flex-col items-start md:pb-[68px] gap-7">
           <a
             class="bg-[#FFFFFF] hover:bg-yellow-500 px-4 py-2 mt-5 rounded-[10px]"
             href="#"
@@ -91,6 +90,9 @@
             Work the way that <br />
             works for you
           </h1>
+
+          <div class="w-10 h-1 bg-[#3ADAD9]"></div>
+
           <p class="md:text-[22px] text-white">
             Create, Build, Collaborate and Ship products <br />
             very fast
@@ -101,7 +103,7 @@
             >Get Started</a
           >
         </div>
-        <div class="mt-12 mx-10">
+        <div class="mt-12 mx-10 flex items-center justify-center">
           <img src="../Res/grp2.svg" alt="" />
         </div>
       </section>
@@ -110,15 +112,246 @@
     </header>
     <!-- Header Complete for here -->
 
+    <!-- Brand logo Section -->
+
+    <section class="w-full flex flex-col p-5">
+      <!-- Outer/Main Div -->
+      <div
+        class="container my-8 flex flex-col md:flex-row justify-between md:gap-20"
+      >
+        <!-- Div 1 for left side image -->
+        <div class="p-5 mx-28">
+          <div class="w-10 h-1 bg-[#FFCC1D]"></div>
+          <h2 class="mt-2 text-[#515151] text-[30px] md:text-[14px]">
+            See Why over 100,000 teams choose <br />
+            <a href="#">TeamFlow.com</a>
+          </h2>
+        </div>
+        <!-- Div 1 for left side image Ends here -->
+        <!-- Div 2 for Right side brand Images -->
+        <div
+          class="flex flex-col justify-ite-center items-center gap-[120px] md:flex-row"
+        >
+          <!-- Brands images -->
+          <div class="w-[115px]">
+            <img src="../Res/image 1.svg" alt="hulu icon" />
+          </div>
+          <div class="w-[158px]">
+            <img src="../Res/image 2.svg" alt="bbc-studios icon" />
+          </div>
+          <div class="w-[]">
+            <img src="../Res/image 3.svg" alt="Universal icon" />
+          </div>
+          <div class="w-[]">
+            <img src="../Res/image 4.svg" alt="Adobe icon" />
+          </div>
+          <!-- Brands Images Divs Ends here-->
+        </div>
+        <!-- Div 2 for right side brands Images ends here -->
+      </div>
+      <!-- Outer/Main Div Ends here-->
+    </section>
+    <!-- Brand logo Section Ends here -->
+
+    <!-- New Section -->
+    <section class="container" id="new-arv">
+      <!-- Outer/Main Div -->
+      <div class="my-10 mx-auto">
+        <!-- Header Div -->
+        <div class="text-3xl mb-14 flex items-center justify-center">
+          <h1 class="text-[#565656]">
+            What you <span class="text-[#FFCA1D]">can do?</span>
+          </h1>
+        </div>
+        <!-- Header Div Ends Here -->
+
+        <!-- 2nd div for 3 card icon-->
+        <div
+          class="flex flex-col md:justify-evenly gap-10 mt-10 md:flex md:flex-row"
+        >
+          <!-- Div 1 for 1st card icon -->
+          <div class="flex flex-col items-center text-center gap-8">
+            <img
+              class=""
+              src="../Res/graph_icon.svg"
+              alt="Business Planning grap icon"
+            />
+            <h2 class="text-[#2B3377] font-semibold">Business Planning</h2>
+            <p class="">
+              Our Business Plan is a Written document <br />
+              describing a company's core business activites.
+            </p>
+          </div>
+          <!-- Div 1 for 1st card icon Ends here-->
+
+          <!-- Div 2 for 2nd card icon -->
+          <div class="flex flex-col items-center text-center gap-8">
+            <img
+              class=""
+              src="../Res/financial_icon.svg"
+              alt="Financial Planning icon"
+            />
+            <h2 class="text-[#2B3377] font-semibold">Financial Planning</h2>
+            <p class="text-[#565656]">
+              Our expert team sensble descision about their <br />
+              money. to ensure they achieve the life goals. A <br />
+              Financial plan
+            </p>
+          </div>
+          <!-- Div 2 for 2nd card icon Ends here -->
+
+          <!-- Div 3 for 3rd card icon -->
+          <div class="flex flex-col items-center text-center gap-8">
+            <img
+              class=""
+              src="../Res/market_icon.svg"
+              alt="Market Analysis icon"
+            />
+            <h2 class="text-[#2B3377] font-semibold">Market Analysis</h2>
+            <p class="text-[#565656]">
+              A market analysis is a quantitative and <br />
+              qualitative assessment of a market. It looks <br />
+              into the size of the market.
+            </p>
+          </div>
+          <!-- Div 3 for 3rd card icon Ends here-->
+        </div>
+        <!-- 2nd div for 3 card icon ends here-->
+      </div>
+      <!-- Outer/Main Div Ends here -->
+    </section>
+    <!-- New Section Ends here -->
+
+    <!-- New Section for Feature part 1 -->
+    <section class="">
+      <!-- Outer/Main Div for 3 divs -->
+      <div class="container my-10 mx-auto">
+        <!--Header Div-->
+        <div class="text-3xl mb-14 flex items-center justify-center">
+          <h1 class="text-[#565656]">
+            Our <span class="text-[#FFCA1D]">Features</span>
+          </h1>
+        </div>
+        <!--Header Div-->
+
+        <!-- 2nd outer/main div for image and discription -->
+        <div
+          class="flex flex-col md:flex-row md:justify-center md:gap-40 md:items-center"
+        >
+          <!--Div 1 for Left side Image -->
+          <div class="flex flex-col items-center justify-center">
+            <img
+              class="md:w-[600px] w-[450px]"
+              src="../Res/Group 32.svg"
+              alt="grp-image"
+            />
+          </div>
+          <!--Div 1 for Left side Image -->
+
+          <!-- Div 2 for right side Description -->
+          <div
+            class="flex flex-col gap-10 justify-center text-center items-center md:items-start md:text-left"
+          >
+            <h1 class="text-xl text-[#4A4A4A]">
+              Manage everything in one <br />
+              workspace
+            </h1>
+
+            <div class="w-10 h-1 bg-[#FFCC1D]"></div>
+
+            <p class="">
+              Planning, tracking and delivering your team’s best work has <br />
+              never been easier. An integrated workspace that’s simple to <br />
+              use, TeamFlow lets you spend less time managing your work <br />
+              and more time actually doing it.
+            </p>
+          </div>
+          <!-- Div 2 for right side Description Ends here-->
+        </div>
+        <!-- 2nd outer/main div for image and discription Ends here-->
+      </div>
+      <!-- Outer/Main Div for 3 divs Ends here-->
+    </section>
+    <!-- New Section for Feature part 1 Ends here-->
+
+    <!-- New Section for Feature part 2 -->
+    <section class="my-10 mx-auto bg-[#FAFAFF]">
+      <!-- Outer/Main div -->
+      <div class="container my-10 mx-auto flex items-center justify-center ">
+        <!-- 2nd Outer/Main div for Description and Image -->
+        <div class="flex flex-col md:flex-row md:justify-center md:items-center gap-10">
+          <!-- Div for Description -->
+          <div class="flex flex-col gap-5 justify-center text-center items-center md:items-start md:text-left">
+            <h1 class="">Set up in a minutes</h1>
+            <div class="w-10 h-1 bg-[#FFCC1D]"></div>
+            <p class="">
+              Get started fast with hundreds of visual and customizable <br />
+              templates - or create your own. Use our free online template
+              <br />
+              maker to create beautiful template in minutes. Choose from <br />
+              hundreds of pre-made templates and tell stories with data <br />
+              with our easy drag-and-drop infographic creator.
+            </p>
+          </div>
+          <!-- Div for Description -->
+
+          <!-- Div for Image -->
+          <div class="flex flex-col items-center justify-center">
+            <img class="" src="../Res/Group 65.svg" alt="group-65" />
+          </div>
+          <!-- Div for Image Ends here -->
+        </div>
+        <!-- 2nd Outer/Main div for Description and Image -->
+      </div>
+      <!-- Outer/Main div Ends here-->
+    </section>
+    <!-- New Section for Feature part 2 Ends here-->
+
+    <!-- New Section for Tools -->
+    <section class="">
+      <!-- Outer/Main Div for header, image & button-->
+      <div class="container my-10 mx-auto">
+        <!-- Header div -->
+        <div class="text-3xl mb-14 flex items-center text-center justify-center">
+          <h1 class="text-3xl text-[#565656]">
+            <span class="text-3xl text-[#FFCA1D]">Integrate</span> with your existing tools <br />
+            in a few clicks
+          </h1>
+        </div>
+        <!-- Header div Ends here-->
+
+        <!-- 2nd Outer/Main div for 5 Images -->
+        <div class="flex flex-col items-center md:justify-evenly gap-10 mt-10 md:flex md:flex-row">
+          <div><img class="" src="../Res/image 21.svg" alt="zoom"></div>
+          <div><img class="" src="../Res/image 19.svg" alt="logo"></div>
+          <div><img class="" src="../Res/image 16.svg" alt="logo"></div>
+          <div><img class="" src="../Res/image 15.svg" alt="Dropbox"></div>
+          <div><img class="" src="../Res/image 17.svg" alt="G-Drive"></div>
+        </div>
+        <!-- 2nd Outer/Main div for 5 Images -->
+       <div class="my-5 flex items-center justify-center">
+        <a
+        class="bg-[#FFCC1D] hover:bg-yellow-500 px-4 py-2"
+        href="#">View All</a>
+  </div>
+       </div>
+      <!-- Outer/Main Div for header, image & button Ends here-->
+    </section>
+    <!-- New Section for Tools Ends here -->
+
     <!-- Scripting -->
 
     <script>
-      const hamburger = document.getElementById("hamburger");
-      const mobileNav = document.getElementById("mobile-nav");
+      let hamburger = document.getElementById("hamburger");
+      let mobileNav = document.getElementById("mobile-nav");
+      console.log(hamburger);
 
       hamburger.addEventListener("click", () => {
         mobileNav.classList.toggle("-translate-x-full");
       });
+      console.log(hamburger);
+      console.log(mobileNav);
     </script>
+    <!-- Scripting Ends here -->
   </body>
 </html>
